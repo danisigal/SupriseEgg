@@ -7,15 +7,26 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="525dp"
-        android:layout_height="303dp"
-        android:text="Hello World!"
+        android:layout_width="641dp"
+        android:layout_height="379dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Help me!"
         android:textColor="#3F51B5"
-        android:textSize="96sp"
+        android:textSize="125sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05" />
+        app:layout_constraintVertical_bias="0.071" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="531dp"
+        android:layout_height="607dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/greenegg"
+        tools:layout_editor_absoluteY="583dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
